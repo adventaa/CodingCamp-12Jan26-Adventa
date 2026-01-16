@@ -453,12 +453,15 @@
 
       <!-- menu message -->
       <section id="message" class="pt-5 mt-5">
-        <h2 class="text-center mt-5">Share your cat story</h2>
-        <form id="messageForm">
-          <!-- box nama -->
-          <div class="mb-3 row">
-            <label for="nama" class="col-sm-2 col-form-label">Nama</label>
-            <div class="col-sm-10">
+        <div class="container">
+          <h2 class="text-center mb-4 mt-5">
+            Bagikan Pengalaman Tentang Kucing Anda
+          </h2>
+
+          <form id="messageForm">
+            <!-- nama -->
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
               <input
                 type="text"
                 class="form-control"
@@ -467,12 +470,10 @@
                 required
               />
             </div>
-          </div>
 
-          <!-- box email -->
-          <div class="mb-3 row">
-            <label for="email" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
+            <!-- email -->
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
               <input
                 type="email"
                 class="form-control"
@@ -481,38 +482,26 @@
                 required
               />
             </div>
-          </div>
 
-          <!-- box pesan -->
-          <div class="mb-3 row">
-            <label for="message" class="col-sm-2 col-form-label">
-              Cerita Kucing 😻
-            </label>
-            <div class="col-sm-10">
+            <!-- cerita -->
+            <div class="mb-3">
+              <label for="cerita" class="form-label">Cerita Kucing Anda</label>
               <textarea
                 class="form-control"
-                id="message"
+                id="cerita"
                 rows="4"
                 placeholder="Ceritakan pengalaman seru kamu dengan kucing..."
                 required
               ></textarea>
             </div>
-          </div>
 
-          <!-- tombol submit -->
-          <div class="row">
-            <div class="col-sm-10 offset-sm-2">
-              <button type="submit" class="btn btn-primary">
-                Kirim Cerita
-              </button>
-            </div>
-          </div>
-        </form>
+            <!-- submit -->
+            <button type="submit" class="btn btn-primary">Kirim Cerita</button>
+          </form>
 
-        <!-- tempat tampil hasil -->
-        <div id="result" class="mt-4"></div>
-
-        <p id="result"></p>
+          <!-- hasil -->
+          <div id="result" class="mt-5"></div>
+        </div>
       </section>
     </div>
 

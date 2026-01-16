@@ -17,6 +17,7 @@ html, body {
   transition: all 0.3s ease;
 }
 
+
 /* edit halaman home */
 #home {
   min-height: 100vh;
@@ -42,6 +43,7 @@ html, body {
   font-size: 1.5rem;
   margin-top: 1rem;
 }
+
 
 /* edit halaman profile */
 #profile{
@@ -90,6 +92,7 @@ html, body {
   filter: invert(1);
 }
 
+
 /* edit halaman galeri */
 #gallery { 
   width: 100%;
@@ -131,10 +134,11 @@ html, body {
   text-align: center;
 }
 
+
 /* edit halaman care */
 #care {
   min-height: 100vh;
-  background-color: #f9f9f9;
+  background-color: white;
   padding-bottom: 60px;
 }
 
@@ -159,4 +163,27 @@ html, body {
 /* edit halaman message */
 #message{
   min-height: 100vh;
+}
+
+#message h2{
+  font-size: 3rem;
+  position: center;
+  font-weight: 800;
+}
+
+.story-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.story-card h5 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.story-card small {
+  color: grey;
 }
