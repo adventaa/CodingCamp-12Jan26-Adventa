@@ -7,43 +7,84 @@ html, body {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Memastikan padding tidak menambah lebar elemen */
+  box-sizing: border-box; 
 }
 
 .cat-navbar {
-  background-color: #f6f4d8; 
+  background-color: #f5f4ec; 
 }
 
 #home {
   min-height: 100vh;
-  width: 100%;       
-  max-width: 100%;   
-  margin: 0;       
-  padding: 0;  
-  
-  background-image: url("../gambar/home.jpg");
+  width: 100%;
+  background-image: url("../gambar/home\(1\).jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  
+  background-position: center bottom;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: center;      
+  justify-content: flex-start; 
+  text-align: left;         
+  padding-left: 10%;        
 }
 
 .cat-text h1 {
-  font-size: 3rem;
+  font-size: 8rem;
+  position: center;
+
 }
 
 .cat-text p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 1rem;
 }
 
 #profile{
   min-height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
 }
+
+#profile h5 {
+  font-size: 3.5rem;      
+  font-weight: 700;
+}
+
+#profile p {
+  font-size: 1.5rem;    
+  line-height: 1.8;
+}
+
+
+#profile .carousel,
+#profile .carousel-inner,
+#profile .carousel-item {
+  height: 100vh; 
+}
+
+#profile .carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  bottom: auto;
+  max-width: 700px;
+  color: black;
+}
+
+#profile .carousel-item {
+    /* background-image: url("../gambar/profile.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
 
 #gallery{
   min-height: 100vh;
