@@ -1,8 +1,58 @@
-html {
-  scroll-behavior: smooth;
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
 }
 
-section {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Memastikan padding tidak menambah lebar elemen */
+}
+
+.cat-navbar {
+  background-color: #f6f4d8; 
+}
+
+#home {
   min-height: 100vh;
-  padding: 80px 20px;
+  width: 100%;       
+  max-width: 100%;   
+  margin: 0;       
+  padding: 0;  
+  
+  background-image: url("../gambar/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cat-text h1 {
+  font-size: 3rem;
+}
+
+.cat-text p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+#profile{
+  min-height: 100vh;
+}
+
+#gallery{
+  min-height: 100vh;
+}
+
+#care{
+  min-height: 100vh;
+}
+
+#message{
+  min-height: 100vh;
 }

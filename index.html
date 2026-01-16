@@ -10,11 +10,8 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg bg-body-tertiary fixed-top px-3"
-    >
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top cat-navbar">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <ul class="nav nav-pills ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
@@ -38,36 +35,38 @@
       data-bs-target="#navbar"
       data-bs-root-margin="0px 0px -40%"
       data-bs-smooth-scroll="true"
-      class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+      class="scrollspy-example"
       tabindex="0"
     >
       <!-- menu home -->
       <section id="home">
-        <h1>Hi <span id="username">Cat Lovers</span> 🐾</h1>
-        <p>
-          Selamat datang di Meow World - Semua yang Perlu Anda Ketahui Tentang
-          Kucing
-        </p>
+        <div class="cat-text">
+          <h1>Hi <span id="username">Cat Lovers</span></h1>
+          <p>
+            Selamat datang di Meow World - Semua yang Perlu Anda Ketahui Tentang
+            Kucing
+          </p>
+        </div>
       </section>
 
       <!-- menu profile -->
       <section id="profile" class="pt-5 mt-5">
-        <h2>Cat Profile</h2>
+        <h2 class="text-center mt-5">Cat Profile</h2>
       </section>
 
       <!-- menu gallery -->
       <section id="gallery" class="pt-5 mt-5">
-        <h2>Cat Gallery</h2>
+        <h2 class="text-center mt-5">Ras Kucing yang Populer</h2>
       </section>
 
       <!-- menu care -->
       <section id="care" class="pt-5 mt-5">
-        <h2>Cat Care</h2>
+        <h2 class="text-center mt-5">Cat Care</h2>
       </section>
 
       <!-- menu message -->
       <section id="message" class="pt-5 mt-5">
-        <h2>Share your cat story</h2>
+        <h2 class="text-center mt-5">Share your cat story</h2>
         <form id="messageForm">
           <!-- box nama -->
           <div class="mb-3 row">
