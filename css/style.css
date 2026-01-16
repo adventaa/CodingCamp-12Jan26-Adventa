@@ -11,7 +11,10 @@ html, body {
 }
 
 .cat-navbar {
-  background-color: #f5f4ec; 
+  background-color: white;
+  border-bottom: 2px solid black;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
 }
 
 /* edit halaman home */
@@ -29,13 +32,14 @@ html, body {
 }
 
 .cat-text h1 {
-  font-size: 8rem;
+  font-size: 5.5rem;
   position: center;
+  font-weight: 800;
 
 }
 
 .cat-text p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
 }
 
@@ -49,9 +53,9 @@ html, body {
   overflow: hidden;
 }
 
-#profile h5 {
-  font-size: 3.5rem;      
-  font-weight: 700;
+#profile h5 {     
+  font-weight: 800;
+  font-size: 3rem; 
 }
 
 #profile p {
@@ -87,14 +91,14 @@ html, body {
 }
 
 /* edit halaman galeri */
-#gallery {
-  height: 100vh; 
+#gallery { 
   width: 100%;
   background-color: #d1ecfd; 
-  padding-top: 70px; 
+  padding: 30px 15px;
   display: flex;
   flex-direction: column;
   overflow: hidden; 
+  box-sizing: border-box;
 }
 
 .cat-text-gallery h1 {
@@ -128,9 +132,29 @@ html, body {
 }
 
 /* edit halaman care */
-#care{
+#care {
   min-height: 100vh;
+  background-color: #f9f9f9;
+  padding-bottom: 60px;
 }
+
+#care h1 {
+  font-weight: 800;
+  font-size: 3rem; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#care h5 {
+  font-weight: 700;
+  
+}
+
+#care .list-group-item {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 
 /* edit halaman message */
 #message{
