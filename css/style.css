@@ -163,6 +163,7 @@ html, body {
 /* edit halaman message */
 #message{
   min-height: 100vh;
+  background-color: #d1ecfd; 
 }
 
 #message h2{
